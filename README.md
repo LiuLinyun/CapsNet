@@ -8,7 +8,7 @@
 
 初始化时只需要定义这个模块的输入特征个数，输出特征个数，输入特征长度，输出特征长度，路由次数，如
 
-cap = Capsule(input_features=32*6*6,output_features=10,input_feature_length=8,output_feature_length=16,routing_iterators=3)
+cap = Capsule(input_features=3266, output_features=10, input_feature_length=8, output_feature_length=16, routing_iterators=3)
 
 ### 如何使用这个模块
 
@@ -18,6 +18,6 @@ cap = Capsule(input_features=32*6*6,output_features=10,input_feature_length=8,ou
 
 output = cap(input)
 
-其中 input 大小为 (batch_size, input_features, input_feature_length)
+其中 input 大小为 (batch_size, 3266, 8)
 
-其中 output 大小为 (batch_size, output_features, output_feature_length)
+其中 output 大小为 (batch_size, 10, 16)
