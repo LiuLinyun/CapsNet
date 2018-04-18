@@ -2,7 +2,7 @@
 
 这是使用Pytorch实现的CapsNet，参考论文[《Dynamic Routing Between Capsules》](https://arxiv.org/pdf/1710.09829.pdf)
 
-为了便于使用，已经将 Capsule 层封装成了一个模块。
+为了便于使用，已经将 Capsule 层封装成了一个模块，可以单独使用。
 
 ### 如何初始化这个模块
 
