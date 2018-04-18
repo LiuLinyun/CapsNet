@@ -15,3 +15,9 @@ cap = Capsule(input_features=32*6*6,output_features=10,input_feature_length=8,ou
 输入张量大小定义为一个 （批量大小，输入特征个数，输入特征长度），即 (batch_size, input_features, input_feature_length)
 
 输出张量大小定义为一个 （批量大小，输出特征个数，输出特征长度），即 (batch_size, output_features, output_feature_length)
+
+output = cap(input)
+
+其中 input 大小为 (batch_size, input_features, input_feature_length)
+
+其中 output 大小为 (batch_size, output_features, output_feature_length)
